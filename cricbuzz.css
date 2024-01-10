@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+
+}
+#cricbuzz{
+    background-color: green;  
+}
+#live{
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+#Aus{
+    background-color: black;
+}
+#live1{
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+#squad{
+    background-color: blanchedalmond;
+}
+#score{
+    word-spacing: 10px;
+}
+#ekna{
+margin: 15px;
+text-decoration: none;
+color: darkblue;
+}
+#match{
+    margin: 30px;
+    text-decoration: none;
+
+}
+span{
+    word-spacing: 3px;
+}
+#won{
+    color: darkblue;
+}
+#dekock{
+    text-decoration: none;
+}
+#rabada{
+    margin: 50px;
+}
+#sehwag{
+    background-color: whitesmoke;
+}
+

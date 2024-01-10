@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 5</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Student details</legend>
+            <ul>
+                <ul type="disc">
+                    <li><label for="name">Name:</label>
+                        <input type="text" id="name">
+                    </li>
+                    <li>
+                        <label for="ema">Email:</label>
+                        <input type="email" id="ema">
+                    </li>
+                    <li>
+                        <label for="pass">Password:</label>
+                        <input type="password" id="pass">
+                    </li><br><br>
+                    <li>Your emontions:
+                        <ul type="disc">
+                            <li>
+                                <label for="angry">Angry</label>
+                                <input type="checkbox" id="angry">
+                            </li>
+                            <li>
+                                <label for="sad">Sad</label>
+                                <input type="checkbox" id="sad">
+                            </li>
+                            <li>
+                                <label for="happy">Happy</label>
+                                <input type="checkbox" id="happy" checked>
+                            </li>
+                            <li>
+                                <label for="amb">Abitions</label>
+                                <input type="checkbox" id="amb">
+                            </li>
+                        </ul>
+                    </li><br><br>
+                    <li>How statisfies were you by your service?
+                        <ul type="disc">
+                            <li>
+                                <label for="VS">Very Satisfied</label>
+                                <input type="radio" id="VS" value="Very Satisfied" name="Satis" checked>
+                            </li>
+                            <li>
+                                <label for="SS">Satisfied</label>
+                                <input type="radio" id="SS" value="Satisfied" name="Satis">
+                            </li>
+                            <li>
+                                <label for="dis">Dissatified</label>
+                                <input type="radio" id="dis" value="DisSatisfied" name="Satis">
+                            </li>
+                            <li>
+                                <label for="VD">VeryDisatisfied</label>
+                                <input type="radio" id="VD" value="VeryDisatisfied" name="Satis">
+                            </li>
+                        </ul>
+                    </li><br><br>
+                </ul><br>
+                <li>
+                    <label for="text">Further Comments:</label>
+                    <textarea name="" id="text" cols="20" rows="7"></textarea>
+                </li><br>
+                <li><label for="photo">Bio photo:</label>
+                    <input type="text" id="photo" name="biotext">
+                    <input type="file" id="photo">
+                </li><br>
+
+                <li><label for="vis">Location:</label>
+                    <select name="location" id="vis">
+                        <option value="">Kedarnath</option>
+                        <option value="">Badrinath</option>
+                        <option value="">Puri</option>
+                    </select>
+                </li><br>
+                <li><button>Submit</button></li>
+            </ul>
+        </fieldset>
+    </form>
+
+    <!-- semantic Elements:- Those tag represent any special value   Ex:- 
+      Form, table-->
+
+    <!-- non-semantic Elements:- Those Elements do not have specefic task is and only for grouping and styling.
+    
+    ex:- <Table> , <span>  non-semantic elements are those which does not describes the meaning to browser and developer they only used for grouping elements and for styling-->
+
+</body>
+
+</html>

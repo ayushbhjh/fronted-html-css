@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My result</title>
+    <style>
+        table,
+        tr,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        td {
+            width: 50%;
+            text-align: center;
+        }
+
+        tr {
+            height: 30px;
+        }
+
+        thead {
+            background-color: bisque;
+        }
+        tbody {
+            background-color: rgb(149, 229, 205);
+        }
+
+
+        tfoot {
+            background-color: rgb(173, 112, 22);
+        }
+    </style>
+</head>
+
+<body>
+
+    <table style="width: 200%;">
+        <thead>
+            <tr>
+                <th colspan="2">My result</th>
+            </tr>
+        </thead>
+        
+        <tr>
+            <td>Javascript</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Html</td>
+            <td>49</td>
+        </tr>
+        <tr>
+            <td>Css</td>
+            <td>46</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Total</td>
+            <td>Grade= A</td>
+        </tr>
+        <tr>
+            <td>Good student</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td>web development result</td>
+                <td>Pass</td>
+            </tr>
+        </tfoot>
+       
+    </table>
+
+</body>
+
+</html>
